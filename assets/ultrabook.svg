@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" width="800" height="520" role="img" aria-labelledby="ub-title ub-desc">
+  <title id="ub-title">Ultrabook laptop</title>
+  <desc id="ub-desc">Flat vector illustration of a slim silver ultrabook laptop displaying an airy blue abstract wallpaper with soft waves and a glowing sun.</desc>
+  <defs>
+    <linearGradient id="ub-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f4f8ff"/>
+      <stop offset="1" stop-color="#d5e2f6"/>
+    </linearGradient>
+    <linearGradient id="ub-metal" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fdfdff"/>
+      <stop offset="0.5" stop-color="#ccd6e6"/>
+      <stop offset="1" stop-color="#a6b2c6"/>
+    </linearGradient>
+    <linearGradient id="ub-wall" x1="0.1" y1="0" x2="0.9" y2="1">
+      <stop offset="0" stop-color="#aee2ff"/>
+      <stop offset="0.55" stop-color="#5b93f7"/>
+      <stop offset="1" stop-color="#2b4ac9"/>
+    </linearGradient>
+    <pattern id="ub-keys" width="26" height="20" patternUnits="userSpaceOnUse">
+      <rect x="2" y="2" width="22" height="16" rx="4" fill="#2f3b52" fill-opacity="0.9"/>
+    </pattern>
+    <clipPath id="ub-scr">
+      <rect x="177" y="72" width="446" height="286" rx="10"/>
+    </clipPath>
+    <clipPath id="ub-kb">
+      <path d="M150 386 H650 L670 414 H130 Z"/>
+    </clipPath>
+    <filter id="ub-blur" x="-45%" y="-45%" width="190%" height="190%">
+      <feGaussianBlur stdDeviation="20"/>
+    </filter>
+  </defs>
+
+  <rect width="800" height="520" rx="30" fill="url(#ub-bg)"/>
+  <circle cx="400" cy="235" r="165" fill="#ffffff" opacity="0.5" filter="url(#ub-blur)"/>
+  <ellipse cx="400" cy="452" rx="245" ry="16" fill="#2b3a55" opacity="0.2" filter="url(#ub-blur)"/>
+
+  <g>
+    <rect x="165" y="60" width="470" height="310" rx="18" fill="url(#ub-metal)"/>
+    <rect x="177" y="72" width="446" height="286" rx="10" fill="#16203a"/>
+    <g clip-path="url(#ub-scr)">
+      <rect x="177" y="72" width="446" height="286" fill="url(#ub-wall)"/>
+      <circle cx="524" cy="138" r="66" fill="#ffffff" opacity="0.4" filter="url(#ub-blur)"/>
+      <circle cx="524" cy="138" r="42" fill="#ffffff" opacity="0.55"/>
+      <path d="M140 292 C 250 236, 330 322, 430 274 S 600 214, 670 262 L 670 370 L 140 370 Z" fill="#ffffff" opacity="0.16"/>
+      <path d="M140 326 C 262 284, 342 352, 452 318 S 596 280, 670 310 L 670 370 L 140 370 Z" fill="#ffffff" opacity="0.26"/>
+      <path d="M177 72 H 336 L 224 358 H 177 Z" fill="#ffffff" opacity="0.1"/>
+      <g fill="#ffffff">
+        <rect x="206" y="98" width="86" height="7" rx="3.5" opacity="0.6"/>
+        <rect x="206" y="113" width="54" height="7" rx="3.5" opacity="0.38"/>
+        <rect x="206" y="128" width="70" height="7" rx="3.5" opacity="0.28"/>
+      </g>
+      <g stroke="#ffffff" stroke-opacity="0.3" stroke-width="2" stroke-linecap="round">
+        <path d="M556 300 L604 300"/>
+        <path d="M566 316 L614 316"/>
+        <path d="M576 332 L606 332"/>
+      </g>
+    </g>
+    <rect x="177" y="72" width="446" height="286" rx="10" fill="none" stroke="#ffffff" stroke-opacity="0.45" stroke-width="1.5"/>
+    <circle cx="400" cy="66" r="3" fill="#94a1b8"/>
+    <rect x="382" y="362" width="36" height="4" rx="2" fill="#9aa7bd"/>
+  </g>
+
+  <rect x="185" y="360" width="430" height="18" rx="9" fill="#93a0b6"/>
+
+  <path d="M128 372 H672 L704 430 Q708 442 695 442 H105 Q92 442 96 430 Z" fill="url(#ub-metal)"/>
+  <g clip-path="url(#ub-kb)">
+    <rect x="120" y="380" width="560" height="40" fill="url(#ub-keys)"/>
+  </g>
+  <path d="M150 386 H650 L670 414 H130 Z" fill="none" stroke="#ffffff" stroke-opacity="0.35" stroke-width="1.5"/>
+  <rect x="344" y="418" width="112" height="18" rx="6" fill="#b6c1d3" stroke="#ffffff" stroke-opacity="0.5"/>
+  <path d="M104 441 H696" stroke="#ffffff" stroke-opacity="0.55" stroke-width="2"/>
+  <path d="M150 372 H650" stroke="#ffffff" stroke-opacity="0.6" stroke-width="2"/>
+</svg>

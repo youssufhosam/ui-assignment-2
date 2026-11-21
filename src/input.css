@@ -1,0 +1,50 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/forms";
+@source "../*.html";
+@source "./js/*.js";
+
+@theme {
+  --font-sans: "Trebuchet MS", sans-serif;
+  --font-display: Georgia, serif;
+  --color-canvas: #f6f5ef;
+  --color-surface: #ffffff;
+  --color-ink: #202e29;
+  --color-muted: #59675e;
+  --color-line: #d8ded4;
+  --color-accent: #226342;
+  --color-on-accent: #ffffff;
+  --color-soft: #e7eedf;
+}
+
+[data-theme="performance"] {
+  --color-canvas: #171b1c;
+  --color-surface: #22292a;
+  --color-ink: #f3f2eb;
+  --color-muted: #bbc6c3;
+  --color-line: #414c4d;
+  --color-accent: #ffac70;
+  --color-on-accent: #261b13;
+  --color-soft: #343d38;
+  color-scheme: dark;
+}
+
+@layer components {
+  .btn-action {
+    @apply inline-flex min-h-11 items-center justify-center gap-2 rounded-full bg-accent px-5 py-2.5 text-sm font-bold text-on-accent transition hover:opacity-85 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-accent disabled:cursor-not-allowed disabled:opacity-50;
+  }
+  .btn-secondary {
+    @apply inline-flex min-h-11 items-center justify-center gap-2 rounded-full border border-line bg-surface px-5 py-2.5 text-sm font-bold text-ink transition hover:border-accent hover:text-accent focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-accent;
+  }
+  .laptop-card {
+    @apply flex min-w-0 flex-col overflow-hidden rounded-2xl border border-line bg-surface transition duration-200 hover:-translate-y-1 hover:border-accent hover:shadow-lg focus-within:border-accent;
+  }
+  .field {
+    @apply w-full rounded-xl border-line bg-surface text-ink shadow-none focus:border-accent focus:ring-accent;
+  }
+  .eyebrow {
+    @apply font-mono text-xs font-bold uppercase tracking-[0.18em] text-accent;
+  }
+  .page-title {
+    @apply mt-4 font-display text-4xl leading-tight tracking-tight sm:text-5xl lg:text-6xl;
+  }
+}

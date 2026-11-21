@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" width="800" height="520" role="img" aria-labelledby="cr-title cr-desc">
+  <title id="cr-title">Creator laptop</title>
+  <desc id="cr-desc">Flat vector illustration of a purple creator workstation laptop whose screen shows a colour wheel, paint strokes and a stylus over a canvas.</desc>
+  <defs>
+    <linearGradient id="cr-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f7ecff"/>
+      <stop offset="1" stop-color="#e3d0f7"/>
+    </linearGradient>
+    <linearGradient id="cr-metal" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fdfbff"/>
+      <stop offset="0.5" stop-color="#cdc2e0"/>
+      <stop offset="1" stop-color="#a596bd"/>
+    </linearGradient>
+    <linearGradient id="cr-wall" x1="0.1" y1="0" x2="0.9" y2="1">
+      <stop offset="0" stop-color="#4b1d86"/>
+      <stop offset="0.5" stop-color="#7b2ff2"/>
+      <stop offset="1" stop-color="#c02a86"/>
+    </linearGradient>
+    <pattern id="cr-keys" width="26" height="20" patternUnits="userSpaceOnUse">
+      <rect x="2" y="2" width="22" height="16" rx="4" fill="#2b1c3f" fill-opacity="0.88"/>
+    </pattern>
+    <clipPath id="cr-scr">
+      <rect x="177" y="72" width="446" height="286" rx="10"/>
+    </clipPath>
+    <clipPath id="cr-kb">
+      <path d="M150 386 H650 L670 414 H130 Z"/>
+    </clipPath>
+    <filter id="cr-blur" x="-45%" y="-45%" width="190%" height="190%">
+      <feGaussianBlur stdDeviation="20"/>
+    </filter>
+  </defs>
+
+  <rect width="800" height="520" rx="30" fill="url(#cr-bg)"/>
+  <circle cx="400" cy="235" r="165" fill="#ffffff" opacity="0.45" filter="url(#cr-blur)"/>
+  <circle cx="560" cy="330" r="95" fill="#ff3d9a" opacity="0.16" filter="url(#cr-blur)"/>
+  <ellipse cx="400" cy="452" rx="245" ry="16" fill="#3a2258" opacity="0.2" filter="url(#cr-blur)"/>
+
+  <g>
+    <rect x="165" y="60" width="470" height="310" rx="18" fill="url(#cr-metal)"/>
+    <rect x="177" y="72" width="446" height="286" rx="10" fill="#1d0f33"/>
+    <g clip-path="url(#cr-scr)">
+      <rect x="177" y="72" width="446" height="286" fill="url(#cr-wall)"/>
+      <g opacity="0.75">
+        <circle cx="300" cy="190" r="62" fill="#ff3d3d" opacity="0.55"/>
+        <circle cx="356" cy="190" r="62" fill="#ffd93d" opacity="0.55"/>
+        <circle cx="328" cy="146" r="62" fill="#3dffb0" opacity="0.55"/>
+      </g>
+      <circle cx="328" cy="190" r="34" fill="#ffffff" opacity="0.28"/>
+      <path d="M170 300 C 250 262, 320 322, 400 296 S 540 244, 640 288" fill="none" stroke="#ffffff" stroke-opacity="0.75" stroke-width="12" stroke-linecap="round"/>
+      <path d="M170 326 C 246 300, 316 348, 402 330" fill="none" stroke="#ffd166" stroke-opacity="0.8" stroke-width="6" stroke-linecap="round"/>
+      <g transform="rotate(32 520 240)">
+        <rect x="510" y="130" width="20" height="120" rx="10" fill="#ffffff" opacity="0.92"/>
+        <path d="M510 244 L520 276 L530 244 Z" fill="#ffd166"/>
+        <rect x="514" y="150" width="12" height="5" rx="2.5" fill="#7b2ff2" opacity="0.6"/>
+      </g>
+      <g>
+        <rect x="196" y="92" width="34" height="34" rx="9" fill="#ff3d3d" opacity="0.85"/>
+        <rect x="238" y="92" width="34" height="34" rx="9" fill="#ffd93d" opacity="0.85"/>
+        <rect x="280" y="92" width="34" height="34" rx="9" fill="#3dffb0" opacity="0.85"/>
+        <rect x="322" y="92" width="34" height="34" rx="9" fill="#3d8bff" opacity="0.85"/>
+      </g>
+      <path d="M177 72 H 320 L 210 358 H 177 Z" fill="#ffffff" opacity="0.09"/>
+    </g>
+    <rect x="177" y="72" width="446" height="286" rx="10" fill="none" stroke="#ffffff" stroke-opacity="0.4" stroke-width="1.5"/>
+    <circle cx="400" cy="66" r="3" fill="#9d8fb5"/>
+    <rect x="382" y="362" width="36" height="4" rx="2" fill="#9d8fb5"/>
+  </g>
+
+  <rect x="185" y="360" width="430" height="18" rx="9" fill="#9d8fb5"/>
+
+  <path d="M128 372 H672 L704 430 Q708 442 695 442 H105 Q92 442 96 430 Z" fill="url(#cr-metal)"/>
+  <g clip-path="url(#cr-kb)">
+    <rect x="120" y="380" width="560" height="40" fill="url(#cr-keys)"/>
+  </g>
+  <path d="M150 386 H650 L670 414 H130 Z" fill="none" stroke="#ffffff" stroke-opacity="0.35" stroke-width="1.5"/>
+  <rect x="344" y="418" width="112" height="18" rx="6" fill="#b6a8ca" stroke="#ffffff" stroke-opacity="0.5"/>
+  <g opacity="0.85">
+    <rect x="250" y="418" width="60" height="6" rx="3" fill="#ff3d9a"/>
+    <rect x="490" y="418" width="60" height="6" rx="3" fill="#7b2ff2"/>
+  </g>
+</svg>
