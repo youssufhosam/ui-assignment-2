@@ -61,6 +61,6 @@ The CSS build, module syntax, dataset and storage/comparison logic were checked 
 
 ## Submission Notes
 
-[Public GitHub repository for SW302 Assignment 2](https://github.com/xX-youssuf-Xx/ui-assignment-2)
+[Public GitHub repository for SW302 Assignment 2](https://github.com/youssufhosam/ui-assignment-2)
 
 For the discussion, be ready to explain the actual code: ES modules, asynchronous fetching, DOM rendering, event listeners, array methods, localStorage serialization, URLSearchParams, Tailwind compilation, theme variables and comparison winner calculations.
